@@ -1,12 +1,23 @@
-# React + Vite
+# Assembly Endgame Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Welcome to the Assembly Endgame Project! This project is designed to showcase advanced concepts in assembly language programming and to demonstrate proficiency in low-level programming techniques. The goal is to create a high-performance application that leverages the power of assembly language.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Introduction
+The Assembly Endgame Project is a comprehensive application written in assembly language. It includes various modules that demonstrate the capabilities of assembly language in terms of performance, memory management, and low-level hardware interaction. This project serves as a learning resource for those interested in mastering assembly language programming.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- High-performance computation
+- Efficient memory management
+- Low-level hardware interaction
+- Modular and extensible design
+- Comprehensive documentation and comments
+
+## Installation
+To install and run the Assembly Endgame Project, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   <https://github.com/segni49/Assembly-EndGame>
