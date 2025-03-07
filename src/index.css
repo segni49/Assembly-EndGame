@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(1, 10, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+main {
+  width: fit-content;
+  height: fit-content;
+  margin: 1rem;
+  padding: 40rem;
+  background-color: #0d0c0c;
+   border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+header h1 {
+  color: rgb(220, 216, 216);
+  font-size: 3rem;
+  text-align: center;
+  opacity: 0.7;
+}
+header p {
+  color: rgb(220, 216, 216);
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 1.2rem;
+  opacity: 0.6;
+  text-shadow: 2px 3px 10px 5px white;
+}
+.gamestatus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 4rem;
+  align-items: center;
+  margin-top: 1rem;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+ .won {
+  display: inline-block;
+  background-color: green;
+ height: 4rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.6;
+
+}
+.farewellmessage {
+  display: inline-block;
+  background-color: rgb(17, 206, 220);
+ height: 4rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.lost {
+  display: inline-block;
+  background-color: red;
+  text-align: center;
+ height: fit-content;
+  align-items: center;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.6;
+  text-shadow: 2px 3px 10px #0d0c0c;
+}
+.farewell-message p {
+  display: inline-block;
+  background-color: rgb(11, 172, 246);
+  color: #0d0c0c;
+  text-align: center;
+  font-size: 1.2rem;
+  text-shadow: 2px 3px 10px #0d0c0c;
+  margin: 0;
+  width: 100%;
+  border-radius: 5px;
+  text-shadow: 2px 3px 10px #0d0c0c
+}
+.language-select {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.language-select .chip {
+  text-align: center;
+  border: none;
+  position: relative;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px;
+  text-shadow: 2px 3px 10px #0d0c0c;
+}
+.language-select .chip-lost {
+  content: lost;
+  opacity: 0.1;
+}
+.guess-word  {
+  display: flex;
+  max-width: 450px;
+  background-color: #1a1919;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom:2px solid gray ;
+  border-radius: 10px;
+ margin: 5rem;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+.guess-word span {
+  color: #f5ecec;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+  text-shadow: 0px 0px 0px 10px(white);
+}
+
+ .keyboard {
+  display: flex;
+  max-width: 450px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ margin: 4rem;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+  gap: 10px;
+ }
+ .keyboard button {
+  width: 3rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 5px rgb(34, 33, 33);
+  font-size: 1.5rem;
+  background-color: goldenrod;
+  opacity: 0.8;
+  color: rgb(7, 7, 7);
+  text-shadow: 2px 3px 10px rgb(247, 247, 246);
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.2s ease;
+ }
+ .keyboard button:hover {
+  opacity: 0.4;
+  scale: 1.2;
+  color: rgb(7, 7, 7);
+  text-shadow: 2px 3px 10px rgb(247, 247, 246);
+  
+ }
+ footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+ }
+ footer button {
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 5px rgb(34, 33, 33);
+  font-size: 1.5rem;
+  background-color: rgb(13, 57, 250);
+  color: rgb(7, 7, 7);
+  text-shadow: 2px 3px 10px rgb(247, 247, 246);
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.2s ease;
+ }
+
+ footer button:hover {
+  opacity: 0.7;
+  scale: 1.1;
+  color: rgb(247, 247, 246);
+  text-shadow: 2px 3px 10px rgb(7, 7, 7);
+ }
+ button.correct {
+  background-color: green;
+
+ }
+ button.wrong {
+  background-color: red;
+ 
+}
+.guess-word span.chip {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: rgb(13, 57, 250);
+  color: white;
+  text-shadow: 2px 3px 10px rgb(7, 7, 7);
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.2s ease;
+ 
+}
+.guess-word span .chip:hover {
+  background-color: bisque;
+}
